@@ -23,6 +23,8 @@ Automated dictionary and package checks passed for the release. A previous InDes
 
 The release contains Wiktionary-derived data under CC BY-SA 4.0, Gregorio Classical Latin patterns under MIT terms, and MIT-licensed installer code. See the release's `THIRD-PARTY-NOTICES.txt`, `LICENSE-MIT.txt`, and provenance manifests. The contents have different terms, so no single repository-wide license applies.
 
+The dictionaries, hyphenation data, Installer, and Uninstaller are provided “as is,” without warranty of any kind. See the included licenses and notices for their full terms.
+
 ## Feedback
 
 I'm Nigel Gourlay, the maintainer. If you use these dictionaries, have feedback, or spot a problem, please [open an issue in this repository](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/issues).
