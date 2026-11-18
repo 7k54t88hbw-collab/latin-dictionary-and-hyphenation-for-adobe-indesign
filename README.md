@@ -2,9 +2,9 @@
 
 ## Download
 
-[**Download the macOS Installer (v1.0.2)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.2/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.2-Installer.pkg)
+[**Download the macOS Installer (v1.0.3)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.3/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.3-Installer.pkg)
 
-See the [v1.0.2 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.2) for the Uninstaller and manual-install archive.
+See the [v1.0.3 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.3) for the Uninstaller and manual-install archive.
 
 These dictionaries let Latin writers and editors spell-check Latin and apply Classical Latin hyphenation in Adobe InDesign. The Standard profile contains 1,832,979 source-listed spelling entries and can generate 70,783 inflected forms; the more selective Macron-enforcing profile contains 1,167,384 entries and can generate 60,106 inflected forms, from the English Wiktionary snapshot dated 1 November 2026.
 
@@ -19,17 +19,19 @@ The release includes a macOS Installer, Uninstaller, and manual-install archive,
 
 Both profiles include Classical Latin hyphenation.
 
-## Before opening the Installer
+## INSTALLATION: Apple could not verify  'Latin Dictionary and Hyphenation for InDesign'
 
-The Installer and Uninstaller are unsigned because Apple charges fees for its Developer ID Installer program, and those fees are not supportable for this small project with a limited audience. Before opening a downloaded package, run `shasum -a 256 <filename>` and compare the result with its entry in `SHA256SUMS.txt` from the release.
+The Installer and Uninstaller are unsigned because Apple charges fees for its Developer ID Installer program, and those fees are not supportable for this small project with a limited audience. Before opening the package, download it only from this project's release repository. Run `shasum -a 256 <filename>` and compare the result with the package's entry in `SHA256SUMS.txt`.
 
-If macOS says it could not verify the package, choose **Done** to keep the download; choose **Move to Bin** only if you want to delete it. To approve it, open **System Settings → Privacy & Security** and choose **Open Anyway** if available. The wording and location can vary by macOS version, so look for the equivalent package-specific approval control. If approval is unavailable or a managed Mac disables it, use the manual-install archive linked on the release page.
+1. Open the downloaded Installer. If macOS says it was blocked to protect your Mac or that Apple could not verify it, choose **Done** to dismiss the warning and keep the package.
+2. Open **System Settings → Privacy & Security**. In the **Security** section, find the Installer message and click **Open Anyway** beside it. Confirm that you want to open the package if macOS asks.
+3. If **Open Anyway** is not shown, check the Security section again after trying to open the package. Wording and location vary by macOS version; look for the equivalent package-specific approval control. The control may be temporary or unavailable, and managed Macs may disable it. If approval is unavailable, use the manual-install archive linked on the release page.
+4. When the chooser says **Choose your Adobe InDesign application to update**, select the InDesign application itself. In the default location, open **Applications → Adobe InDesign 2027**, select **Adobe InDesign 2027** (Finder may hide the `.app` extension), and click **Open**. Select the application, not its containing folder.
+5. Choose **Standard** or **Macron-enforcing** when prompted, then follow the Installer prompts. Quit InDesign before starting; the Installer does not close it for you.
 
 ## Compatibility and installation
 
 The package targets InDesign 2027 and macOS 14, 15, 26, and 27. Installation modifies files inside the selected InDesign app bundle and may need to be repeated after an Adobe update.
-
-Automated dictionary and package checks passed for the release. A previous InDesign 2027 probe used earlier dictionary artifacts; the released package has not received a fresh live-app smoke test. The project does not claim that every targeted InDesign/macOS combination was tested.
 
 ## Licensing and provenance
 
