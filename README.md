@@ -10,16 +10,7 @@ Read the INSTALLATION section, below.
 
 See the [v1.0.5 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.5) for the Uninstaller and manual-install archive.
 
-Download the latest release from the [GitHub Releases page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/latest).
-
 The release includes a macOS Installer, Uninstaller, and manual-install archive, along with release notes, provenance manifests, licensing notices, and SHA-256 checksums.
-
-## Choose a spelling profile
-
-- **Standard** is intended for broad spelling acceptance and retains Hunspell's usual case variants for lowercase source spellings.
-- **Macron-enforcing** requires exact source case and excludes an unmarked spelling only when the same Wiktionary entry provides a canonical macronized spelling for that form. It assumes that only proper nouns are capitalised; words are not capitalised just because they begin a sentence. This matches the maintainer's house style. It retains distinct forms and spellings whose vowel quantities are unknown.
-
-Both profiles include Classical Latin hyphenation.
 
 ## INSTALLATION: Apple could not verify  'Latin Dictionary and Hyphenation for InDesign'
 
@@ -32,6 +23,13 @@ The Installer and Uninstaller are unsigned because Apple charges fees for its De
 5. Choose **Standard** or **Macron-enforcing** when prompted, then follow the Installer prompts. Quit InDesign before starting; the Installer does not close it for you.
 
 [^checksum]: If you wish to verify that the downloaded Installer matches the file listed on the release page, open Terminal, type `shasum -a 256 `, drag the downloaded `.pkg` file into the Terminal window, and press Return. Download `SHA256SUMS.txt` from the same release page and compare the hash printed by Terminal with the Installer's entry.
+
+## Choose a spelling profile
+
+- **Standard** is intended for broad spelling acceptance and retains Hunspell's usual case variants for lowercase source spellings.
+- **Macron-enforcing** requires exact source case and excludes an unmarked spelling only when the same Wiktionary entry provides a canonical macronized spelling for that form. It assumes that only proper nouns are capitalised; words are not capitalised just because they begin a sentence. This matches the maintainer's house style. It retains distinct forms and spellings whose vowel quantities are unknown.
+
+Both profiles include Classical Latin hyphenation.
 
 ## Compatibility and installation
 
