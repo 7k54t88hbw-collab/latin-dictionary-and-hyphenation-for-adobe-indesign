@@ -31,6 +31,8 @@ The Installer and Uninstaller are unsigned because Apple charges fees for its De
 
 Both profiles include Classical Latin hyphenation.
 
+Standard is recommended for general use. Choose Macron-enforcing if your publication follows the project maintainer's house style.
+
 ## Compatibility and installation
 
 The package targets InDesign 2027 and macOS 14, 15, 26, and 27. Installation modifies files inside the selected InDesign app bundle and will need to be repeated after each Adobe InDesign upgrade.
