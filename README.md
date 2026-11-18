@@ -4,11 +4,11 @@ These dictionaries let Latin writers and editors spell-check Latin and apply Cla
 
 ## Download
 
-[**Download the macOS Installer (v1.0.6)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.6/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.6-Installer.pkg)
+[**Download the macOS Installer (v1.0.7)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.7/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.7-Installer.pkg)
 
 Read the INSTALLATION section, below.
 
-See the [v1.0.6 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.6) for the Uninstaller and manual-install archive.
+See the [v1.0.7 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.7) for the Uninstaller and manual-install archive, which includes `INSTRUCTIONS.txt`.
 
 The release includes a macOS Installer, Uninstaller, and manual-install archive, along with release notes, provenance manifests, licensing notices, and SHA-256 checksums.
 
