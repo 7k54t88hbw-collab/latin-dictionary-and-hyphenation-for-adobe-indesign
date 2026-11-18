@@ -7,7 +7,7 @@ The release includes a macOS Installer, Uninstaller, and manual-install archive,
 ## Choose a spelling profile
 
 - **Standard** is intended for broad spelling acceptance and retains Hunspell's usual case variants for lowercase source spellings.
-- **Macron-enforcing** requires exact source case and excludes an unmarked spelling only when the same Wiktionary entry provides a canonical macronized spelling for that form. It retains distinct forms and spellings whose vowel quantities are unknown.
+- **Macron-enforcing** requires exact source case and excludes an unmarked spelling only when the same Wiktionary entry provides a canonical macronized spelling for that form. It assumes that only proper nouns are capitalised; words are not capitalised just because they begin a sentence. This matches the maintainer's house style. It retains distinct forms and spellings whose vowel quantities are unknown.
 
 Both profiles include Classical Latin hyphenation.
 
