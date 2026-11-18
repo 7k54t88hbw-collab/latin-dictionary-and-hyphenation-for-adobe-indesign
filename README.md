@@ -2,9 +2,9 @@
 
 ## Download
 
-[**Download the macOS Installer (v1.0.3)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.3/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.3-Installer.pkg)
+[**Download the macOS Installer (v1.0.4)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.4/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.4-Installer.pkg)
 
-See the [v1.0.3 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.3) for the Uninstaller and manual-install archive.
+See the [v1.0.4 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.4) for the Uninstaller and manual-install archive.
 
 These dictionaries let Latin writers and editors spell-check Latin and apply Classical Latin hyphenation in Adobe InDesign. The Standard profile contains 1,832,979 source-listed spelling entries and can generate 70,783 inflected forms; the more selective Macron-enforcing profile contains 1,167,384 entries and can generate 60,106 inflected forms, from the English Wiktionary snapshot dated 1 November 2026.
 
@@ -31,7 +31,7 @@ The Installer and Uninstaller are unsigned because Apple charges fees for its De
 
 ## Compatibility and installation
 
-The package targets InDesign 2027 and macOS 14, 15, 26, and 27. Installation modifies files inside the selected InDesign app bundle and may need to be repeated after an Adobe update.
+The package targets InDesign 2027 and macOS 14, 15, 26, and 27. Installation modifies files inside the selected InDesign app bundle and will need to be repeated after each Adobe InDesign upgrade.
 
 ## Licensing and provenance
 
