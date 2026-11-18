@@ -4,11 +4,11 @@ These dictionaries let Latin writers and editors spell-check Latin and apply Cla
 
 ## Download
 
-[**Download the macOS Installer (v1.0.7)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.7/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.7-Installer.pkg)
+[**Download the macOS Installer (v1.0.8)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.8/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.8-Installer.pkg)
 
 Read the INSTALLATION section, below.
 
-See the [v1.0.7 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.7) for the Uninstaller and manual-install archive, which includes `INSTRUCTIONS.txt`.
+See the [v1.0.8 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.8) for the Uninstaller and manual-install archive, which includes `INSTRUCTIONS.txt`.
 
 The release includes a macOS Installer, Uninstaller, and manual-install archive, along with release notes, provenance manifests, licensing notices, and SHA-256 checksums.
 
@@ -16,11 +16,11 @@ The release includes a macOS Installer, Uninstaller, and manual-install archive,
 
 The Installer and Uninstaller are unsigned because Apple charges fees for its Developer ID Installer program, and those fees are not supportable for this small project with a limited audience. Before opening the package, download it only from this project's release repository.[^checksum]
 
-1. Open the downloaded Installer. If macOS says it was blocked to protect your Mac or that Apple could not verify it, choose **Done** to dismiss the warning and keep the package.
+1. Quit InDesign; the Installer does not close it for you. Then open the downloaded Installer. If macOS says it was blocked to protect your Mac or that Apple could not verify it, choose **Done** to dismiss the warning and keep the package.
 2. Open **System Settings → Privacy & Security**. In the **Security** section, find the Installer message and click **Open Anyway** beside it. Confirm that you want to open the package if macOS asks.
 3. If **Open Anyway** is not shown, check the Security section again after trying to open the package. Wording and location vary by macOS version; look for the equivalent package-specific approval control. The control may be temporary or unavailable, and managed Macs may disable it. If approval is unavailable, use the manual-install archive linked on the release page.
 4. When the chooser says **Choose your Adobe InDesign application to update**, select the Adobe InDesign application you want to update. In the default location, open **Applications** and then the folder named for your InDesign version. Select the Adobe InDesign application inside that folder and click **Open**. If it is installed elsewhere, navigate to it. Select the application itself, not its containing folder.
-5. Choose **Standard** or **Macron-enforcing** when prompted, then follow the Installer prompts. Quit InDesign before starting; the Installer does not close it for you.
+5. Choose **Standard** or **Macron-enforcing** when prompted, then follow the Installer prompts.
 
 [^checksum]: If you wish to verify that the downloaded Installer matches the file listed on the release page, open Terminal, type `shasum -a 256 `, drag the downloaded `.pkg` file into the Terminal window, and press Return. Download `SHA256SUMS.txt` from the same release page and compare the hash printed by Terminal with the Installer's entry.
 
