@@ -8,7 +8,7 @@ These dictionaries let Latin writers and editors spell-check Latin and apply Cla
 
 Read the INSTALLATION section, below.
 
-See the [v1.0.8 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.8) for the Uninstaller and manual-install archive, which includes `INSTRUCTIONS.txt`.
+See the [v1.0.8 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.8) for the Uninstaller and manual-install archive.
 
 The release includes a macOS Installer, Uninstaller, and manual-install archive, along with release notes, provenance manifests, licensing notices, and SHA-256 checksums.
 
