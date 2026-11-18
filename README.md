@@ -2,9 +2,9 @@
 
 ## Download
 
-[**Download the macOS Installer (v1.0.4)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.4/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.4-Installer.pkg)
+[**Download the macOS Installer (v1.0.5)**](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/download/v1.0.5/Latin-Dictionary-and-Hyphenation-for-Adobe-InDesign-1.0.5-Installer.pkg)
 
-See the [v1.0.4 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.4) for the Uninstaller and manual-install archive.
+See the [v1.0.5 release page](https://github.com/7k54t88hbw-collab/latin-dictionary-and-hyphenation-for-adobe-indesign/releases/tag/v1.0.5) for the Uninstaller and manual-install archive.
 
 These dictionaries let Latin writers and editors spell-check Latin and apply Classical Latin hyphenation in Adobe InDesign. The Standard profile contains 1,832,979 source-listed spelling entries and can generate 70,783 inflected forms; the more selective Macron-enforcing profile contains 1,167,384 entries and can generate 60,106 inflected forms, from the English Wiktionary snapshot dated 1 November 2026.
 
@@ -21,13 +21,15 @@ Both profiles include Classical Latin hyphenation.
 
 ## INSTALLATION: Apple could not verify  'Latin Dictionary and Hyphenation for InDesign'
 
-The Installer and Uninstaller are unsigned because Apple charges fees for its Developer ID Installer program, and those fees are not supportable for this small project with a limited audience. Before opening the package, download it only from this project's release repository. Run `shasum -a 256 <filename>` and compare the result with the package's entry in `SHA256SUMS.txt`.
+The Installer and Uninstaller are unsigned because Apple charges fees for its Developer ID Installer program, and those fees are not supportable for this small project with a limited audience. Before opening the package, download it only from this project's release repository.[^checksum]
 
 1. Open the downloaded Installer. If macOS says it was blocked to protect your Mac or that Apple could not verify it, choose **Done** to dismiss the warning and keep the package.
 2. Open **System Settings → Privacy & Security**. In the **Security** section, find the Installer message and click **Open Anyway** beside it. Confirm that you want to open the package if macOS asks.
 3. If **Open Anyway** is not shown, check the Security section again after trying to open the package. Wording and location vary by macOS version; look for the equivalent package-specific approval control. The control may be temporary or unavailable, and managed Macs may disable it. If approval is unavailable, use the manual-install archive linked on the release page.
 4. When the chooser says **Choose your Adobe InDesign application to update**, select the InDesign application itself. In the default location, open **Applications → Adobe InDesign 2027**, select **Adobe InDesign 2027** (Finder may hide the `.app` extension), and click **Open**. Select the application, not its containing folder.
 5. Choose **Standard** or **Macron-enforcing** when prompted, then follow the Installer prompts. Quit InDesign before starting; the Installer does not close it for you.
+
+[^checksum]: If you wish to verify that the downloaded Installer matches the file listed on the release page, open Terminal, type `shasum -a 256 `, drag the downloaded `.pkg` file into the Terminal window, and press Return. Download `SHA256SUMS.txt` from the same release page and compare the hash printed by Terminal with the Installer's entry.
 
 ## Compatibility and installation
 
