@@ -37,6 +37,17 @@ Standard is recommended for general use. Choose Macron-enforcing if your publica
 
 The package targets InDesign 2027 and macOS 14, 15, 26, and 27. Installation modifies files inside the selected InDesign app bundle and will need to be repeated after each Adobe InDesign upgrade.
 
+## Help! My spell-check stopped working!
+
+If InDesign stops spell-checking text in any language and shows no error:
+
+1. Save your work and quit InDesign.
+2. Download and run the Uninstaller from the release page above. Select the InDesign application you use and remove the project-managed dictionaries.
+3. Start InDesign and spell-check any document.
+4. Quit InDesign again.
+5. Run the Installer from the same release and reinstall the Latin and/or Ancient Greek dictionaries you use.
+6. Start InDesign again to use the dictionaries.
+
 ## Licensing and provenance
 
 The release contains Wiktionary-derived data under CC BY-SA 4.0, Gregorio Classical Latin patterns under MIT terms, and MIT-licensed installer code. See the release's `THIRD-PARTY-NOTICES.txt`, `LICENSE-MIT.txt`, and provenance manifests. The contents have different terms, so no single repository-wide license applies.
