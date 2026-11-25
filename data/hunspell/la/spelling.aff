@@ -1,0 +1,473 @@
+SET UTF-8
+BREAK 0
+NOSPLITSUGS
+MAXCPDSUGS 0
+KEEPCASE 8
+REP 64
+REP ^a A
+REP ^b B
+REP ^c C
+REP ^d D
+REP ^e E
+REP ^f F
+REP ^g G
+REP ^h H
+REP ^i I
+REP ^j J
+REP ^k K
+REP ^l L
+REP ^m M
+REP ^n N
+REP ^o O
+REP ^p P
+REP ^q Q
+REP ^r R
+REP ^s S
+REP ^t T
+REP ^u U
+REP ^v V
+REP ^w W
+REP ^x X
+REP ^y Y
+REP ^z Z
+REP ^ā Ā
+REP ^ē Ē
+REP ^ī Ī
+REP ^ō Ō
+REP ^ū Ū
+REP ^ȳ Ȳ
+REP ^A a
+REP ^B b
+REP ^C c
+REP ^D d
+REP ^E e
+REP ^F f
+REP ^G g
+REP ^H h
+REP ^I i
+REP ^J j
+REP ^K k
+REP ^L l
+REP ^M m
+REP ^N n
+REP ^O o
+REP ^P p
+REP ^Q q
+REP ^R r
+REP ^S s
+REP ^T t
+REP ^U u
+REP ^V v
+REP ^W w
+REP ^X x
+REP ^Y y
+REP ^Z z
+REP ^Ā ā
+REP ^Ē ē
+REP ^Ī ī
+REP ^Ō ō
+REP ^Ū ū
+REP ^Ȳ ȳ
+MAP 12
+MAP aā
+MAP eē
+MAP iī
+MAP oō
+MAP uū
+MAP yȳ
+MAP AĀ
+MAP EĒ
+MAP IĪ
+MAP OŌ
+MAP UŪ
+MAP YȲ
+SFX 0 Y 8
+SFX 0 utio ūtiō utio
+SFX 0 utio ūtiōne utio
+SFX 0 utio ūtiōnem utio
+SFX 0 utio ūtiōnibus utio
+SFX 0 utio ūtiōnis utio
+SFX 0 utio ūtiōnum utio
+SFX 0 utio ūtiōnēs utio
+SFX 0 utio ūtiōnī utio
+SFX 1 Y 5
+SFX 1 on ōn on
+SFX 1 on ōne on
+SFX 1 on ōnem on
+SFX 1 on ōnis on
+SFX 1 on ōnī on
+SFX 2 Y 4
+SFX 2 os e os
+SFX 2 os on os
+SFX 2 os ī os
+SFX 2 os ō os
+SFX 3 Y 2
+SFX 3 osa ōsa osa
+SFX 3 osa ōsā osa
+SFX 4 Y 8
+SFX 4 ago āgine ago
+SFX 4 ago āginem ago
+SFX 4 ago āginibus ago
+SFX 4 ago āginis ago
+SFX 4 ago āginum ago
+SFX 4 ago āginēs ago
+SFX 4 ago āginī ago
+SFX 4 ago āgō ago
+SFX 5 Y 2
+SFX 5 atis ātis atis
+SFX 5 atis ātīs atis
+SFX 6 Y 7
+SFX 6 es ae es
+SFX 6 es ārum es
+SFX 6 es ās es
+SFX 6 es ē es
+SFX 6 es ēn es
+SFX 6 es ēs es
+SFX 6 es īs es
+SFX 7 Y 8
+SFX 7 inus īne inus
+SFX 7 inus īnum inus
+SFX 7 inus īnus inus
+SFX 7 inus īnī inus
+SFX 7 inus īnīs inus
+SFX 7 inus īnō inus
+SFX 7 inus īnōrum inus
+SFX 7 inus īnōs inus
+SFX A Y 6
+SFX A a ae a
+SFX A a am a
+SFX A a ā a
+SFX A a ārum a
+SFX A a ās a
+SFX A a īs a
+SFX B Y 7
+SFX B us e us
+SFX B us um us
+SFX B us ī us
+SFX B us īs us
+SFX B us ō us
+SFX B us ōrum us
+SFX B us ōs us
+SFX C Y 8
+SFX C atio ātiō atio
+SFX C atio ātiōne atio
+SFX C atio ātiōnem atio
+SFX C atio ātiōnibus atio
+SFX C atio ātiōnis atio
+SFX C atio ātiōnum atio
+SFX C atio ātiōnēs atio
+SFX C atio ātiōnī atio
+SFX D Y 8
+SFX D o ō o
+SFX D o ōne o
+SFX D o ōnem o
+SFX D o ōnibus o
+SFX D o ōnis o
+SFX D o ōnum o
+SFX D o ōnēs o
+SFX D o ōnī o
+SFX E Y 5
+SFX E um a um
+SFX E um ī um
+SFX E um īs um
+SFX E um ō um
+SFX E um ōrum um
+SFX F Y 3
+SFX F a ae a
+SFX F a am a
+SFX F a ā a
+SFX G Y 4
+SFX G us e us
+SFX G us um us
+SFX G us ī us
+SFX G us ō us
+SFX H Y 8
+SFX H is e is
+SFX H is em is
+SFX H is ia is
+SFX H is ibus is
+SFX H is ium is
+SFX H is ēs is
+SFX H is ī is
+SFX H is īs is
+SFX I Y 4
+SFX I ius ium ius
+SFX I ius iī ius
+SFX I ius iō ius
+SFX I ius ī ius
+SFX J Y 2
+SFX J ata āta ata
+SFX J ata ātā ata
+SFX K Y 8
+SFX K as ās as
+SFX K as āte as
+SFX K as ātem as
+SFX K as ātibus as
+SFX K as ātis as
+SFX K as ātum as
+SFX K as ātēs as
+SFX K as ātī as
+SFX L Y 6
+SFX L ium ia ium
+SFX L ium iī ium
+SFX L ium iīs ium
+SFX L ium iō ium
+SFX L ium iōrum ium
+SFX L ium ī ium
+SFX M Y 2
+SFX M atura ātūra atura
+SFX M atura ātūrā atura
+SFX N Y 7
+SFX N or ōre or
+SFX N or ōrem or
+SFX N or ōribus or
+SFX N or ōris or
+SFX N or ōrum or
+SFX N or ōrēs or
+SFX N or ōrī or
+SFX O Y 2
+SFX O averimus āverimus averimus
+SFX O averimus āverīmus averimus
+SFX P Y 2
+SFX P averitis āveritis averitis
+SFX P averitis āverītis averitis
+SFX Q Y 2
+SFX Q averis āveris averis
+SFX Q averis āverīs averis
+SFX R Y 8
+SFX R ator ātor ator
+SFX R ator ātōre ator
+SFX R ator ātōrem ator
+SFX R ator ātōribus ator
+SFX R ator ātōris ator
+SFX R ator ātōrum ator
+SFX R ator ātōrēs ator
+SFX R ator ātōrī ator
+SFX S Y 4
+SFX S i ī i
+SFX S i īs i
+SFX S i ōrum i
+SFX S i ōs i
+SFX T Y 2
+SFX T arimus ārimus arimus
+SFX T arimus ārīmus arimus
+SFX U Y 2
+SFX U aritis āritis aritis
+SFX U aritis ārītis aritis
+SFX V Y 6
+SFX V us ibus us
+SFX V us um us
+SFX V us uum us
+SFX V us uī us
+SFX V us ū us
+SFX V us ūs us
+SFX W Y 2
+SFX W ura ūra ura
+SFX W ura ūrā ura
+SFX X Y 5
+SFX X o ō o
+SFX X o ōne o
+SFX X o ōnem o
+SFX X o ōnis o
+SFX X o ōnī o
+SFX Y Y 5
+SFX Y es e es
+SFX Y es em es
+SFX Y es is es
+SFX Y es ēs es
+SFX Y es ī es
+SFX Z Y 8
+SFX Z os e os
+SFX Z os oe os
+SFX Z os on os
+SFX Z os ī os
+SFX Z os īs os
+SFX Z os ō os
+SFX Z os ōrum os
+SFX Z os ōs os
+SFX a Y 3
+SFX a ae ārum ae
+SFX a ae ās ae
+SFX a ae īs ae
+SFX b Y 7
+SFX b atus ātibus atus
+SFX b atus ātum atus
+SFX b atus ātus atus
+SFX b atus ātuum atus
+SFX b atus ātuī atus
+SFX b atus ātū atus
+SFX b atus ātūs atus
+SFX c Y 7
+SFX c is e is
+SFX c is em is
+SFX c is ibus is
+SFX c is ium is
+SFX c is ēs is
+SFX c is ī is
+SFX c is īs is
+SFX d Y 8
+SFX d udo ūdine udo
+SFX d udo ūdinem udo
+SFX d udo ūdinibus udo
+SFX d udo ūdinis udo
+SFX d udo ūdinum udo
+SFX d udo ūdinēs udo
+SFX d udo ūdinī udo
+SFX d udo ūdō udo
+SFX e Y 7
+SFX e s de s
+SFX e s dem s
+SFX e s dibus s
+SFX e s dis s
+SFX e s dum s
+SFX e s dēs s
+SFX e s dī s
+SFX f Y 4
+SFX f e ae e
+SFX f e ē e
+SFX f e ēn e
+SFX f e ēs e
+SFX g Y 5
+SFX g on a on
+SFX g on ī on
+SFX g on īs on
+SFX g on ō on
+SFX g on ōrum on
+SFX h Y 7
+SFX h arium āria arium
+SFX h arium ārium arium
+SFX h arium āriī arium
+SFX h arium āriīs arium
+SFX h arium āriō arium
+SFX h arium āriōrum arium
+SFX h arium ārī arium
+SFX i Y 3
+SFX i ium iī ium
+SFX i ium iō ium
+SFX i ium ī ium
+SFX j Y 7
+SFX j ina īna ina
+SFX j ina īnae ina
+SFX j ina īnam ina
+SFX j ina īnā ina
+SFX j ina īnārum ina
+SFX j ina īnās ina
+SFX j ina īnīs ina
+SFX k Y 7
+SFX k amen āmen amen
+SFX k amen āmina amen
+SFX k amen āmine amen
+SFX k amen āminibus amen
+SFX k amen āminis amen
+SFX k amen āminum amen
+SFX k amen āminī amen
+SFX l Y 8
+SFX l us a us
+SFX l us e us
+SFX l us um us
+SFX l us ī us
+SFX l us īs us
+SFX l us ō us
+SFX l us ōrum us
+SFX l us ōs us
+SFX m Y 7
+SFX m ura ūra ura
+SFX m ura ūrae ura
+SFX m ura ūram ura
+SFX m ura ūrā ura
+SFX m ura ūrārum ura
+SFX m ura ūrās ura
+SFX m ura ūrīs ura
+SFX n Y 7
+SFX n e ae e
+SFX n e ārum e
+SFX n e ās e
+SFX n e ē e
+SFX n e ēn e
+SFX n e ēs e
+SFX n e īs e
+SFX o Y 7
+SFX o x ce x
+SFX o x cem x
+SFX o x cibus x
+SFX o x cis x
+SFX o x cum x
+SFX o x cēs x
+SFX o x cī x
+SFX p Y 6
+SFX p amentum āmenta amentum
+SFX p amentum āmentum amentum
+SFX p amentum āmentī amentum
+SFX p amentum āmentīs amentum
+SFX p amentum āmentō amentum
+SFX p amentum āmentōrum amentum
+SFX q Y 7
+SFX q ex ice ex
+SFX q ex icem ex
+SFX q ex icibus ex
+SFX q ex icis ex
+SFX q ex icum ex
+SFX q ex icēs ex
+SFX q ex icī ex
+SFX r Y 2
+SFX r um ī um
+SFX r um ō um
+SFX s Y 8
+SFX s anus āne anus
+SFX s anus ānum anus
+SFX s anus ānus anus
+SFX s anus ānī anus
+SFX s anus ānīs anus
+SFX s anus ānō anus
+SFX s anus ānōrum anus
+SFX s anus ānōs anus
+SFX t Y 4
+SFX t as ae as
+SFX t as ā as
+SFX t as ān as
+SFX t as ās as
+SFX u Y 8
+SFX u ius ie ius
+SFX u ius ium ius
+SFX u ius iī ius
+SFX u ius iīs ius
+SFX u ius iō ius
+SFX u ius iōrum ius
+SFX u ius iōs ius
+SFX u ius ī ius
+SFX v Y 3
+SFX v e issimē e
+SFX v e ius e
+SFX v e ē e
+SFX w Y 7
+SFX w a ae a
+SFX w a am a
+SFX w a us a
+SFX w a ā a
+SFX w a ārum a
+SFX w a ās a
+SFX w a īs a
+SFX x Y 6
+SFX x etum ēta etum
+SFX x etum ētum etum
+SFX x etum ētī etum
+SFX x etum ētīs etum
+SFX x etum ētō etum
+SFX x etum ētōrum etum
+SFX y Y 3
+SFX y is e is
+SFX y is em is
+SFX y is ī is
+SFX z Y 8
+SFX z itio ītiō itio
+SFX z itio ītiōne itio
+SFX z itio ītiōnem itio
+SFX z itio ītiōnibus itio
+SFX z itio ītiōnis itio
+SFX z itio ītiōnum itio
+SFX z itio ītiōnēs itio
+SFX z itio ītiōnī itio
+SFX 9 N 3
+SFX 9 0 que .
+SFX 9 0 ve .
+SFX 9 0 ne .
